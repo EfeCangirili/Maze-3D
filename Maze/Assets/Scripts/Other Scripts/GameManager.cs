@@ -4,7 +4,7 @@ public class GameManager : MonoSingleton<GameManager>
 {
     private Player playerScript;
     public GameObject completeLevelUI;
-    private float restartDelay = 1f;
+    private float restartDelay = .25f;
     private bool gameEnded = false;
     private void Awake()
     {
